@@ -1,0 +1,10 @@
+#repair grub bootloader
+
+
+
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+# You can chenge this driver to whatever version suits you best :)
+sudo apt install nvidia-driver-396
+sudo reboot
